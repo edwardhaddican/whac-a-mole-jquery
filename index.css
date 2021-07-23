@@ -1,0 +1,52 @@
+
+.hidden {
+  display: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background: rgb(177, 169, 169); */
+}
+
+.grid {
+  width: 606px;
+  /* height: 606px; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 48px;
+  border: 1px solid black;
+  background: #ccc;
+}
+
+.cell {
+  /* flex: 0 0 50px; */
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+/* Scoreboard*/
+.scoreboard {
+  display: flex;
+}
+
+.currentScore-header {
+  margin-right: 10rem;
+  display: flex;
+}
+
+.highScore-header {
+  display: flex;
+}
+
+.currentScore {
+  margin-left: 0.5rem;
+}
+
+.highScore {
+  margin-left: 0.5rem;
+}
